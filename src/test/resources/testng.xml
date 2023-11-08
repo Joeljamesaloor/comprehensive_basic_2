@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="QuestionTestsSuite">
+    <test name="QuestionOneTests">
+        <classes>
+            <class name="questionanswers.QuestionOneTest"/>
+        </classes>
+    </test>
+    <test name="QuestionThreeTests">
+        <classes>
+            <class name="questionanswers.QuestionThreeTest"/>
+        </classes>
+    </test>
+    <test name="QuestionFourTests">
+        <classes>
+            <class name="questionanswers.QuestionFourTest"/>
+        </classes>
+    </test>
+</suite>
